@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.logo{
+    padding: 1vw;
+}
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    height: 8vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Joan', serif;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0vw 12vw 0vh 0vh;
+}
+li{
+    padding: 1vh;
+}
+.home{
+    padding: 0vh 1vh 0vh 0.4vh;
+}
+.about{
+    padding: 0vh 1vh 0vh 0.4vh;
+}
+.contact{
+    padding: 0vh 1vh 0vh 0.4vh;
+}
+.pricing{
+    padding: 0vh 1vh 0vh 0.4vh;
+}
