@@ -1,11 +1,82 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-.logo{
+
+.logo {
     padding: 1vw;
 }
-.nav-bar{
+
+.responsive {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 6vh 0vh 4vh 4vh;
+}
+
+.mbar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    height: 19vh;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    font-family: 'Joan', serif;
+}
+
+li {
+    padding: 1vh;
+}
+
+.hamburger {
+    background-color: white;
+    color: white;
+    height: 6vh;
+    width: 12vw;
+    align-self: flex-end;
+    margin: .1vh 2vw 0vh 0vw;
+}
+
+.home {
+    padding: 0vh 1vh 0vh 0.4vh;
+}
+
+.about {
+    padding: 0vh 1vh 0vh 0.4vh;
+}
+
+.contact {
+    padding: 0vh 1vh 0vh 0.4vh;
+}
+
+.pricing {
+    padding: 0vh 1vh 0vh 0.4vh;
+}
+img{
+    height: 6vh;
+    width: 12vw;
+    background-color: black;
+}
+.hide {
+    display:none ;
+}
+.mbarhidden {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    height: 7vh;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    font-family: 'Joan', serif;
+  }
+  .navbar{
     display: flex;
     flex-wrap: wrap;
     background-color: black;
@@ -24,19 +95,4 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0vw 12vw 0vh 0vh;
-}
-li{
-    padding: 1vh;
-}
-.home{
-    padding: 0vh 1vh 0vh 0.4vh;
-}
-.about{
-    padding: 0vh 1vh 0vh 0.4vh;
-}
-.contact{
-    padding: 0vh 1vh 0vh 0.4vh;
-}
-.pricing{
-    padding: 0vh 1vh 0vh 0.4vh;
 }
