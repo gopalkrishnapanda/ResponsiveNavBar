@@ -34,7 +34,7 @@ li {
 }
 
 .hamburger {
-    background-color: white;
+    background-color: black;
     color: white;
     height: 6vh;
     width: 12vw;
@@ -59,7 +59,7 @@ li {
 }
 img{
     height: 6vh;
-    width: 12vw;
+    width: 10vw;
     background-color: black;
 }
 .hide {
@@ -95,4 +95,9 @@ img{
     align-items: center;
     flex-wrap: wrap;
     margin: 0vw 12vw 0vh 0vh;
+}
+@media only screen and (min-width: 416px){
+    .hamburger{
+        display: none;
+    }
 }
